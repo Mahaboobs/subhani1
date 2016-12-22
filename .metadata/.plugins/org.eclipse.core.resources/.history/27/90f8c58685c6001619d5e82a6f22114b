@@ -1,0 +1,25 @@
+package Model;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class MyConnections {
+
+	private static MyConnections myconnection=new MyConnections();
+	public Connection connec;
+	private MyConnections()
+	{
+		
+		
+			
+				Class.forName("com.mysql.jdbc.Driver");
+			
+			connec=DriverManager.getConnection("jdbc:mysql://localhost:3306/babu","root","root");
+		
+
+	public static MyConnections getInstance()
+	{
+		return myconnection;
+	}
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Dhatri form</title>
+</head>
+<body>
+<body bgcolor="yellow">
+<div align="center">
+<marquee><img src="C:\Users\dhatri123\Desktop\images.jpg" alt="Dhatriinfo" style="width:250px;height:200px;"></marquee>
+<font color="red"> <h1>Welcome to Employement Form</h1></font>
+<form action="InsertServlet" method="post">
+Enter Your name<input type="text" name="userName">
+<input type="submit" value="Go">
+<font color="blue"><a href="Reg.jsp">Add A Employee</a></body><br></font>
+
+<a href="Search1.jsp">Search An Employee</a><br>
+<a href="Update.jsp">Update An Employee</a><br>
+<a href="delete.jsp"> Delete An Employee</a>
+</form>
+</div>
+</body>
+</html>
+

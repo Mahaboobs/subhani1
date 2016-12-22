@@ -1,0 +1,54 @@
+package Model;
+
+public class EmployeeBean {
+	private  String empId;
+	private String empName;
+	private double empSalary;
+	private String empLocation;
+	private float empExp;
+	private float empEmi;
+	private float empLoan;
+	public String getEmpid() {
+		return empId;
+	}
+	public void setEmpid(String empid) {
+		this.empId = empid;
+	}
+	public String getEmpname() {
+		return empName;
+	}
+	public void setEmpname(String empname) {
+		this.empName = empname;
+	}
+	public double getEmpsalary() {
+		return empSalary;
+	}
+	public void setEmpsalary(double empsalary) {
+		this.empSalary = empsalary;
+	}
+	public String getEmplocation() {
+		return empLocation;
+	}
+	public void setEmplocation(String emplocation) {
+		this.empLocation = emplocation;
+	}
+	public float getEmpexp() {
+		return empExp;
+	}
+	public void setEmpexp(float empexp) {
+		this.empExp = empexp;
+	}
+
+
+	public float getEmpLoan() {
+		return empLoan;
+	}
+	public void setEmpLoan(float empLoan) {
+		this.empLoan = empLoan;
+	}
+	public float getEmpemi() {
+		return empEmi;
+	}
+	
+	}
+

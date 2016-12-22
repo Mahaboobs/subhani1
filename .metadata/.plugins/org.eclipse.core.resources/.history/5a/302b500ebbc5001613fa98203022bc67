@@ -1,0 +1,40 @@
+package Servlets;
+
+public class EmployeeBean {
+	private  String empid;
+	private String empname;
+	private double empsalary;
+	private String emplocation;
+	private float empexp;
+	public String getEmpid() {
+		return empid;
+	}
+	public void setEmpid(String empid) {
+		this.empid = empid;
+	}
+	public String getEmpname() {
+		return empname;
+	}
+	public void setEmpname(String empname) {
+		this.empname = empname;
+	}
+	public double getEmpsalary() {
+		return empsalary;
+	}
+	public void setEmpsalary(double empsalary) {
+		this.empsalary = empsalary;
+	}
+	public String getEmplocation() {
+		return emplocation;
+	}
+	public void setEmplocation(String emplocation) {
+		this.emplocation = emplocation;
+	}
+	public float getEmpexp() {
+		return empexp;
+	}
+	public void setEmpexp(float empexp) {
+		this.empexp = empexp;
+	}
+
+}
